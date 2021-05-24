@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace book_shop
+namespace BookShop
 {
     public class Startup
     {
@@ -23,34 +23,23 @@ namespace book_shop
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices ( IServiceCollection services )
         {
-            services.AddRazorPages();
+            services.AddMvc();
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        /// <summary>
+        /// Этот метод отвечает на запрос во время исполнения. Используйте этот метод для конфигурации HTTP запросов
+        /// </summary>
+        /// <param name="app"></param>
+        /// <param name="env"></param>
         public void Configure ( IApplicationBuilder app, IWebHostEnvironment env )
         {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
-            else
-            {
-                app.UseExceptionHandler("/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-                app.UseHsts();
-            }
+            app.UseDeveloperExceptionPage();
 
-            app.UseHttpsRedirection();
+            app.UseStatusCodePages();
+
             app.UseStaticFiles();
 
-            app.UseRouting();
-
-            app.UseAuthorization();
-
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapRazorPages();
-            });
+            app.UseMvcWithDefaultRoute();
         }
     }
 }
