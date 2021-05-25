@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace book_shop.src.models
+namespace BookShop.src.models
 {
     /// <summary>
     /// Класс сущности заказчика
