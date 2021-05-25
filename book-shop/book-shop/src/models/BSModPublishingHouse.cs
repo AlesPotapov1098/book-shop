@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BookShop.src.models
+namespace BookShop.SRC.Models
 {
     /// <summary>
     /// Класс для сущности издательство

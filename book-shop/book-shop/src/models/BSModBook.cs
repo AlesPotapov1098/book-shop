@@ -1,4 +1,4 @@
-﻿namespace BookShop.src.models
+﻿namespace BookShop.SRC.Models
 {
     /// <summary>
     /// Класс для хранения сущности книга
