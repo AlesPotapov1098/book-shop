@@ -11,6 +11,11 @@ namespace BookShop.SRC.Models
     public class BSModOrder
     {
         /// <summary>
+        /// Уникальный идентификатор заказа
+        /// </summary>
+            public int ID { get; set; }
+
+        /// <summary>
         /// Книга
         /// </summary>
             public BSModBook Book { get; set; }

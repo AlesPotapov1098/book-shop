@@ -36,8 +36,8 @@ namespace BookShop.SRC.Models
             public string FaxNumber { get; set; }
 
         /// <summary>
-        /// Менеджер
+        /// Идентификатор менеджера
         /// </summary>
-            public BSModManager Manager { get; set; }
+            public int ManagerID { get; set; }
     }
 }

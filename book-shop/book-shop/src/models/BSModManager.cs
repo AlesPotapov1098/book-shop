@@ -8,6 +8,11 @@ namespace BookShop.SRC.Models
     public class BSModManager
     {
         /// <summary>
+        /// Уникальный идентификатор
+        /// </summary>
+            public int ID { get; set; }
+
+        /// <summary>
         /// Имя
         /// </summary>
             public string Name { get; set; }
