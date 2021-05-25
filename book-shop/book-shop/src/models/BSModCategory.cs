@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace BookShop.src.models
 {
-    public class Category
+    public class BSModCategory
     {
         public int ID { set; get; }
 

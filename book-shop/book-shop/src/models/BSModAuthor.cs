@@ -8,7 +8,7 @@ namespace BookShop.src.models
     /// <summary>
     /// Класс для хранения сущности автор
     /// </summary>
-    public class Author
+    public class BSModAuthor
     {
         /// <summary>
         /// Уникальный идентификатор автора

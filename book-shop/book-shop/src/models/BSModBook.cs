@@ -3,7 +3,7 @@
     /// <summary>
     /// Класс для хранения сущности книга
     /// </summary>
-    public class Book
+    public class BSModBook
     {
         /// <summary>
         /// Уникальный идентификатор книги по международному стандарту
@@ -33,6 +33,6 @@
         /// <summary>
         /// Автор книги
         /// </summary>
-            public Author Author { get; set; }
+            public BSModAuthor Author { get; set; }
     }
 }

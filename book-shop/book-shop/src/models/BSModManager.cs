@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace BookShop.src.models
 {
-    public class Manager
+    public class BSModManager
     {
         /// <summary>
         /// Имя

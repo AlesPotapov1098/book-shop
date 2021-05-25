@@ -8,7 +8,7 @@ namespace BookShop.src.models
     /// <summary>
     /// Класс для сущности издательство
     /// </summary>
-    public class PublishingHouse
+    public class BSModPublishingHouse
     {
         /// <summary>
         /// Уникальный идентификатор сущности
@@ -38,6 +38,6 @@ namespace BookShop.src.models
         /// <summary>
         /// Менеджер
         /// </summary>
-            public Manager Manager { get; set; }
+            public BSModManager Manager { get; set; }
     }
 }
