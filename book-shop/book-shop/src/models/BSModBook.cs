@@ -33,6 +33,6 @@
         /// <summary>
         /// Автор книги
         /// </summary>
-            public BSModAuthor Author { get; set; }
+            //public BSModAuthor Author { get; set; }
     }
 }
