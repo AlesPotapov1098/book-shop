@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace book_shop.SRC.Mocks
+namespace BookShop.SRC.Mocks
 {
     public class MockCategory : ICategory
     {
